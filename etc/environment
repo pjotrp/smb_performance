@@ -1,0 +1,12 @@
+#! /bin/bash
+
+g1000=$HOME/data/1000genomes
+bam16=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+
+if [ ! -e $bam16s ]; then
+  ln -s $bam16 $bam16s 
+fi
+
+ls -lh $bam16
+ls -lh $bam16s
