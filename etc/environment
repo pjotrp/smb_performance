@@ -1,8 +1,14 @@
 #! /bin/bash
 
+export LD_LIBRARY_PATH=$HOME/opt/lib
+
+# files from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/HG01375/alignment/
 g1000=$HOME/data/1000genomes
 bam16=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
 bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+
+cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 
 if [ ! -e $bam16s ]; then
   ln -s $bam16 $bam16s 
@@ -10,3 +16,9 @@ fi
 
 ls -lh $bam16
 ls -lh $bam16s
+if [ ! -e $cram4s ]; then
+  ln -s $cram4 $cram4s 
+fi
+
+ls -lh $cram4
+ls -lh $cram4s

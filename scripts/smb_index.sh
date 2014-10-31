@@ -1,10 +1,16 @@
 #!/bin/bash
+#
+# ./scripts/smb_index.sh &>> results/smb_index.out
 
-echo "Indexing with samtools"
+echo "Indexing with sambamba"
+date
+
 . etc/environment
 
-for y in 1 2 3 ; do
-  cmd="$HOME/opt/bin/samtools index $bam16"
+for x in 47 31 15 7 ; do
+  cmd="$HOME/opt/bin/sambamba index -t $x $bam16s"
+  echo $cmd
   time $($cmd)
 done
 
+date
