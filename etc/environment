@@ -7,6 +7,9 @@ g1000=$HOME/data/1000genomes
 bam16=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
 bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
 
+bam31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
 cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 
@@ -16,6 +19,14 @@ fi
 
 ls -lh $bam16
 ls -lh $bam16s
+
+if [ ! -e $bam31s ]; then
+  ln -s $bam31 $bam31s 
+fi
+
+ls -lh $bam31
+ls -lh $bam31s
+
 if [ ! -e $cram4s ]; then
   ln -s $cram4 $cram4s 
 fi
