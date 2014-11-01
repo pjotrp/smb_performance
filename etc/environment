@@ -13,6 +13,12 @@ bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
 cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 
+bam32=$g1000/HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam
+bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam
+
 if [ ! -e $bam16s ]; then
   ln -s $bam16 $bam16s 
 fi
@@ -22,6 +28,14 @@ ls -lh $bam16s
 
 if [ ! -e $bam31s ]; then
   ln -s $bam31 $bam31s 
+fi
+
+if [ ! -e $bam32s ]; then
+  ln -s $bam32 $bam32s 
+fi
+
+if [ ! -e $bam23s ]; then
+  ln -s $bam23 $bam23s 
 fi
 
 ls -lh $bam31
