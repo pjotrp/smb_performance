@@ -1,23 +1,25 @@
 #! /bin/bash
 
+# select=_chr1
+sambamba=$HOME/opt/sambamba-0.5.0-alhpa_ldc-0.15
 export LD_LIBRARY_PATH=$HOME/opt/lib
 
 # files from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/HG01375/alignment/
 g1000=$HOME/data/1000genomes
-bam16=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
-bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+bam16=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam
+bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam
 
-bam31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
-bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+bam31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
+bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 
-cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
-cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
+cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
 
-bam32=$g1000/HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
-bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+bam32=$g1000/HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
+bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 
-bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam
-bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam
+bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
+bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 
 if [ ! -e $bam16s ]; then
   ln -s $bam16 $bam16s 
