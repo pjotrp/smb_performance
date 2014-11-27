@@ -27,6 +27,8 @@ bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 
+merge_files="$bam23s $bam31s $bam32s"
+
 if [ -d results ] ; then 
         if [ ! -e $bam16s ]; then
           ln -s $bam16 $bam16s 
