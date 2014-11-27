@@ -1,7 +1,10 @@
 #! /bin/bash
 
-# select=_chr1
+select=.bam_chr1
 sambamba=$HOME/opt/sambamba-0.5.0-alhpa_ldc-0.15
+samtools=$HOME/opt/bin/samtools
+samtools0119=$HOME/opt/samtools-0.1.19/samtools
+
 export LD_LIBRARY_PATH=$HOME/opt/lib
 
 # files from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/HG01375/alignment/
@@ -12,6 +15,9 @@ bam16s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam
 bam31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 
+bamsort31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.sorted.bam
+bamsort31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.sorted.bam
+
 cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
 cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
 
@@ -21,31 +27,38 @@ bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 
-if [ ! -e $bam16s ]; then
-  ln -s $bam16 $bam16s 
+if [ -d results ] ; then 
+        if [ ! -e $bam16s ]; then
+          ln -s $bam16 $bam16s 
+        fi
+
+        ls -lh $bam16
+        ls -lh $bam16s
+
+        if [ ! -e $bam31s ]; then
+          ln -s $bam31 $bam31s 
+        fi
+
+        if [ ! -e $bamsort31s ]; then
+          ln -s $bamsort31 $bamsort31s 
+          ln -s $bamsort31.bai $bamsort31s.bai
+        fi
+
+        if [ ! -e $bam32s ]; then
+          ln -s $bam32 $bam32s 
+        fi
+
+        if [ ! -e $bam23s ]; then
+          ln -s $bam23 $bam23s 
+        fi
+
+        ls -lh $bam31
+        ls -lh $bam31s
+
+        if [ ! -e $cram4s ]; then
+          ln -s $cram4 $cram4s 
+        fi
+
+        ls -lh $cram4
+        ls -lh $cram4s
 fi
-
-ls -lh $bam16
-ls -lh $bam16s
-
-if [ ! -e $bam31s ]; then
-  ln -s $bam31 $bam31s 
-fi
-
-if [ ! -e $bam32s ]; then
-  ln -s $bam32 $bam32s 
-fi
-
-if [ ! -e $bam23s ]; then
-  ln -s $bam23 $bam23s 
-fi
-
-ls -lh $bam31
-ls -lh $bam31s
-
-if [ ! -e $cram4s ]; then
-  ln -s $cram4 $cram4s 
-fi
-
-ls -lh $cram4
-ls -lh $cram4s

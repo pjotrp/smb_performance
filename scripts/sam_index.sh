@@ -10,7 +10,7 @@ date
 for y in 1 2 3 ; do
   cmd="$HOME/opt/bin/samtools index $bam31s"
   echo $cmd
-  time $($cmd)
+  $(/usr/bin/time -v $cmd)
 done
 
 date
