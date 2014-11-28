@@ -1,5 +1,6 @@
 *.out
 *.bam
+*.sam
 *.bai
 *.cram
 *.crai
