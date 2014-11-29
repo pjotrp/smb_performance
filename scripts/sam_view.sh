@@ -8,7 +8,7 @@ date
 . etc/environment
 
 for y in 32 16 8 ; do
-  cmd="$samtools view $bam31s -o sam_view.sam"
+  cmd="$samtools view -@ $y $bam31s -o sam_view.sam"
   echo $cmd
   $(/usr/bin/time -v $cmd)
 done

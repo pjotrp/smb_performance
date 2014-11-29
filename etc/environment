@@ -1,7 +1,7 @@
 #! /bin/bash
 
 select=.bam_chr1
-sambamba=$HOME/opt/sambamba-0.5.0-alhpa_ldc-0.15
+sambamba=$HOME/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15
 samtools=$HOME/opt/bin/samtools
 samtools0119=$HOME/opt/samtools-0.1.19/samtools
 
@@ -28,6 +28,7 @@ bam23=$g1000/HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 bam23s=HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211$select.bam
 
 merge_files="$bam23s $bam31s $bam32s"
+mpileup_files="$bam31s $bam32s"
 
 if [ -d results ] ; then 
         if [ ! -e $bam16s ]; then
