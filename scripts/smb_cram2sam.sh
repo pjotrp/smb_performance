@@ -8,9 +8,11 @@ date
 . etc/environment
 
 for t in 47 31 15 7 ; do
-  cmd="$sambamba view -t $t -C $cram4s -o smb_cram2sam.sam"
+  outfn=smb_cram2sam_$t.sam
+  cmd="$sambamba view -t $t -C $cram4s -o $outfn"
   echo $cmd
   $(/usr/bin/time -v $cmd)
+  ls -l $outfn
 done
 
 date

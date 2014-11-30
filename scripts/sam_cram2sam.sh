@@ -8,9 +8,11 @@ date
 . etc/environment
 
 for t in 32 16 8 ; do
-  cmd="$samtools view -@ $t $cram4s -o sam_cram2sam.sam"
+  outfn=sam_cram2sam_$t.sam
+  cmd="$samtools view -@ $t $cram4s -o $outfn"
   echo $cmd
   $(/usr/bin/time -v $cmd)
+  ls -l $outfn
 done
 
 date
