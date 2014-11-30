@@ -18,8 +18,8 @@ bam31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 bamsort31=$g1000/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.sorted.bam
 bamsort31s=HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.sorted.bam
 
-cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
-cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522$select.bam.cram
+cram4=$g1000/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+cram4s=HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
 
 bam32=$g1000/HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
 bam32s=HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415$select.bam
