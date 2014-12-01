@@ -7,7 +7,8 @@ date
 
 . etc/environment
 
-for t in 32 16 8 ; do
+# for t in 32 16 8 4 1 ; do
+for t in 4 1 ; do
   outfn=sam_cram2sam_$t.sam
   cmd="$samtools view -@ $t $cram4s -o $outfn"
   echo $cmd
