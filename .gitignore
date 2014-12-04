@@ -6,3 +6,5 @@
 *.crai
 *.vcf
 *.mpileup
+*.fasta
+*.fai

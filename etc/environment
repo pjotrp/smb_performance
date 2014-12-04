@@ -5,6 +5,8 @@ sambamba=$HOME/opt/bin/sambamba_ldc-0.14.0
 samtools=$HOME/opt/bin/samtools
 samtools0119=$HOME/opt/samtools-0.1.19/samtools
 
+refgenome=H_sapiens_GRCh37.fasta
+
 export LD_LIBRARY_PATH=$HOME/opt/lib
 
 # files from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/HG01375/alignment/
