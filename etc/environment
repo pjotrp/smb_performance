@@ -1,10 +1,11 @@
 #! /bin/bash
 
-select=.bam_chr1
+# select=.bam_chr1
 sambamba=$HOME/opt/bin/sambamba_ldc-0.14.0
 samtools=$HOME/opt/bin/samtools
 samtools0119=$HOME/opt/samtools-0.1.19/samtools
-
+scramble=$HOME/opt/bin/scramble
+PATH=$HOME/opt/bin:$PATH
 refgenome=H_sapiens_GRCh37.fasta
 
 export LD_LIBRARY_PATH=$HOME/opt/lib
