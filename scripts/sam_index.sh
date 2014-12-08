@@ -7,8 +7,8 @@ date
 
 . etc/environment
 
-for y in 1 2 3 ; do
-  cmd="$HOME/opt/bin/samtools index $bam31s"
+for t in 32 16 8 ; do
+  cmd="$samtools index $bam31s"
   echo $cmd
   $(/usr/bin/time -v $cmd)
 done
