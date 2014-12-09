@@ -9,7 +9,7 @@ date
 
 for t in 47 31 15 7 3 0; do
   outfn=smb_cram2sam_$t.sam
-  cmd="$sambamba view -t $t -C $cram4s -o $outfn"
+  cmd="$sambamba view -t $t -C $cram10s -o $outfn"
   echo $cmd
   $(/usr/bin/time -v $cmd)
   ls -l $outfn

@@ -8,7 +8,7 @@ date
 . etc/environment
 
 for y in 1 2 3 ; do
-  cmd="$samtools index $cram4s"
+  cmd="$samtools index $cram10s"
   echo $cmd
   $(/usr/bin/time -v $cmd)
 done

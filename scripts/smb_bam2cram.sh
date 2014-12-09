@@ -8,7 +8,7 @@ date
 . etc/environment
 
 
-for t in 46 31 15 7 3 0; do
+for t in 46 31 15 ; do
   outfn=smb_bam2cram_$t.cram
   cmd="$sambamba view -t $t --format=cram $bam31s -o $outfn"
   echo $cmd

@@ -10,7 +10,7 @@ date
 for t in 48 32 16 8 4 1 ; do
 # for t in 4 1 ; do
   outfn=sam_cram2sam_$t.sam
-  cmd="$samtools view -@ $t $cram4s -o $outfn"
+  cmd="$samtools view -@ $t $cram10s -o $outfn"
   echo $cmd
   $(/usr/bin/time -v $cmd)
   ls -l $outfn
