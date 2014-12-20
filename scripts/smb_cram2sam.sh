@@ -13,6 +13,7 @@ date
 
 for t in 47 31 15 7 3 0; do
   # outfn=/mnt/ramdisk/smb_cram2sam_$t.sam
+  rm /mnt/ramdisk/*
   outfn=/mnt/ramdisk/smb_cram2sam.sam
   cmd="$sambamba view -t $t -C $cram10s -o $outfn"
   echo $cmd
