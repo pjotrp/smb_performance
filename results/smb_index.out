@@ -1,0 +1,326 @@
+Indexing with sambamba
+Fri 31 Oct 17:24:36 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-rw-r--r-- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	6m53.695s
+user	37m30.770s
+sys	1m5.926s
+/home/pjotr/opt/bin/sambamba index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	7m3.192s
+user	38m57.506s
+sys	1m13.917s
+/home/pjotr/opt/bin/sambamba index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	6m58.996s
+user	37m16.772s
+sys	1m6.435s
+/home/pjotr/opt/bin/sambamba index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	6m49.092s
+user	28m23.460s
+sys	1m1.900s
+Fri 31 Oct 17:52:21 CET 2014
+Indexing with sambamba
+Wed 26 Nov 12:03:35 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-rw-r--r-- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	7m18.219s
+user	38m48.627s
+sys	1m14.638s
+/home/pjotr/opt/bin/sambamba index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	6m57.234s
+user	38m33.982s
+sys	1m8.680s
+/home/pjotr/opt/bin/sambamba index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+Indexing with sambamba
+Wed 26 Nov 12:19:05 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-rw-r--r-- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	3m8.210s
+user	27m30.008s
+sys	1m51.545s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	3m4.856s
+user	27m48.799s
+sys	1m15.231s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	3m2.160s
+user	21m54.400s
+sys	1m6.675s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+
+real	2m58.077s
+user	15m45.211s
+sys	0m53.214s
+Wed 26 Nov 12:31:18 CET 2014
+Indexing with sambamba
+Thu 27 Nov 14:47:17 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Indexing with sambamba
+Thu 27 Nov 14:47:29 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Usage: /usr/bin/time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Usage: /usr/bin/time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Usage: /usr/bin/time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Usage: /usr/bin/time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]
+Thu 27 Nov 14:48:21 CET 2014
+Indexing with sambamba
+Thu 27 Nov 14:51:03 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 125.62
+	System time (seconds): 6.05
+	Percent of CPU this job got: 938%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 50772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7521
+	Voluntary context switches: 136460
+	Involuntary context switches: 48435
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 118.63
+	System time (seconds): 5.50
+	Percent of CPU this job got: 900%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6902
+	Voluntary context switches: 134755
+	Involuntary context switches: 35177
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 98.16
+	System time (seconds): 5.38
+	Percent of CPU this job got: 776%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7693
+	Voluntary context switches: 133334
+	Involuntary context switches: 20659
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 68.23
+	System time (seconds): 3.73
+	Percent of CPU this job got: 598%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5478
+	Voluntary context switches: 130156
+	Involuntary context switches: 9705
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Thu 27 Nov 14:51:56 CET 2014
+Indexing with sambamba
+Sun  7 Dec 14:14:06 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 47 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 1682.06
+	System time (seconds): 80.29
+	Percent of CPU this job got: 907%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:14.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 91858
+	Voluntary context switches: 1785352
+	Involuntary context switches: 701651
+	Swaps: 0
+	File system inputs: 96
+	File system outputs: 17232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 31 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 1670.27
+	System time (seconds): 81.90
+	Percent of CPU this job got: 902%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:14.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 59394
+	Voluntary context switches: 1781375
+	Involuntary context switches: 572408
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 17232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 15 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 1293.75
+	System time (seconds): 72.89
+	Percent of CPU this job got: 767%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:58.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44691
+	Voluntary context switches: 1763482
+	Involuntary context switches: 276512
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 17232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 index -t 7 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 919.73
+	System time (seconds): 54.74
+	Percent of CPU this job got: 562%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:53.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51433
+	Voluntary context switches: 1707265
+	Involuntary context switches: 139270
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 17232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sun  7 Dec 14:26:26 CET 2014

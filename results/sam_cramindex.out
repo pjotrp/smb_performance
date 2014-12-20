@@ -1,0 +1,172 @@
+cramindexing with samtools
+Sun 30 Nov 11:58:00 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram"
+	User time (seconds): 1.41
+	System time (seconds): 2.32
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 682
+	Voluntary context switches: 1
+	Involuntary context switches: 382
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram"
+	User time (seconds): 1.38
+	System time (seconds): 2.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 738
+	Voluntary context switches: 1
+	Involuntary context switches: 379
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram"
+	User time (seconds): 1.30
+	System time (seconds): 2.43
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 710
+	Voluntary context switches: 0
+	Involuntary context switches: 383
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sun 30 Nov 11:58:12 CET 2014
+cramindexing with samtools
+Tue  9 Dec 13:15:17 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram"
+	User time (seconds): 2.36
+	System time (seconds): 6.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 968
+	Voluntary context switches: 0
+	Involuntary context switches: 878
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram"
+	User time (seconds): 2.34
+	System time (seconds): 6.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 965
+	Voluntary context switches: 0
+	Involuntary context switches: 878
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram
+[W::hts_close] EOF marker is absent. The input is probably truncated.
+	Command being timed: "/home/pjotr/opt/bin/samtools index HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram"
+	User time (seconds): 2.37
+	System time (seconds): 6.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 965
+	Voluntary context switches: 1
+	Involuntary context switches: 874
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Tue  9 Dec 13:15:43 CET 2014

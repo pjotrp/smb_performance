@@ -1,0 +1,642 @@
+mpileup with sambamba
+Sat 29 Nov 17:24:35 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+./scripts/smb_mpileup.sh: xrealloc: cannot allocate 18446744071562067968 bytes (86016 bytes allocated)
+Command terminated by signal 13
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 737.67
+	System time (seconds): 243.04
+	Percent of CPU this job got: 997%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 614780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3560598
+	Voluntary context switches: 2810737
+	Involuntary context switches: 195775
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 3592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileup with sambamba
+Sat 29 Nov 17:56:15 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 4323.77
+	System time (seconds): 1626.82
+	Percent of CPU this job got: 1713%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:47.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1427788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 29039916
+	Voluntary context switches: 11976873
+	Involuntary context switches: 1836057
+	Swaps: 0
+	File system inputs: 816
+	File system outputs: 80529576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+mpileup with sambamba
+Sat 29 Nov 18:02:08 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 809
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 812
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 15 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 15 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 809
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 7 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 7 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 810
+	Voluntary context switches: 3
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Sat 29 Nov 18:02:08 CET 2014
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 0.00
+	System time (seconds): 11.25
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 781
+	Voluntary context switches: 4
+	Involuntary context switches: 1149
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileup with sambamba
+Sat 29 Nov 18:12:56 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 47 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 10618.32
+	System time (seconds): 2418.14
+	Percent of CPU this job got: 2860%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:35.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 824176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 41546473
+	Voluntary context switches: 16544453
+	Involuntary context switches: 6695253
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 87438440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 31 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 10400.06
+	System time (seconds): 1592.36
+	Percent of CPU this job got: 3288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:04.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 788264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36780105
+	Voluntary context switches: 12625957
+	Involuntary context switches: 7120434
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86878304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 15 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 15 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 10167.62
+	System time (seconds): 1035.62
+	Percent of CPU this job got: 1924%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:42.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 442300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 42896283
+	Voluntary context switches: 13301616
+	Involuntary context switches: 1693181
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86878304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 7 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 mpileup -t 7 -o smb_mpileup.mpileup HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --bcftools"
+	User time (seconds): 9865.71
+	System time (seconds): 848.78
+	Percent of CPU this job got: 1012%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:38.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44259240
+	Voluntary context switches: 13445587
+	Involuntary context switches: 1433942
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86878312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat 29 Nov 18:53:57 CET 2014
+mpileup with sambamba
+Thu  4 Dec 16:57:29 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -f H_sapiens_GRCh37.fasta -q 1
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 870
+	Voluntary context switches: 4
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -f H_sapiens_GRCh37.fasta -q 1
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 75%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 872
+	Voluntary context switches: 4
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -f H_sapiens_GRCh37.fasta -q 1
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 871
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 7 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/usr/local/bin/samtools", "Version: 1.1 (using htslib 1.1)"] options: -f H_sapiens_GRCh37.fasta -q 1
+sambamba-pileup: failed to locate bcftools executable in PATH
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 7 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 872
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Thu  4 Dec 16:57:29 CET 2014
+mpileup with sambamba
+Thu  4 Dec 16:58:23 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 22234.50
+	System time (seconds): 18343.49
+	Percent of CPU this job got: 3685%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:20.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1063660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 113062463
+	Voluntary context switches: 9323869
+	Involuntary context switches: 11471800
+	Swaps: 0
+	File system inputs: 1840
+	File system outputs: 67712744
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 22522.57
+	System time (seconds): 1926.59
+	Percent of CPU this job got: 3466%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:45.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 784648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36624690
+	Voluntary context switches: 9854506
+	Involuntary context switches: 5176016
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57147984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 22395.07
+	System time (seconds): 1827.39
+	Percent of CPU this job got: 1601%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:12.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 426260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43113127
+	Voluntary context switches: 10187359
+	Involuntary context switches: 2937275
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57147984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 7 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1
+Using /home/pjotr/opt/bin/bcftoolsview -Ov
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 7 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 --bcftools"
+	User time (seconds): 22255.81
+	System time (seconds): 1616.85
+	Percent of CPU this job got: 800%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 49:42.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 42678024
+	Voluntary context switches: 10158563
+	Involuntary context switches: 2780391
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57147984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Thu  4 Dec 18:43:24 CET 2014
+mpileup with sambamba
+Sat  6 Dec 12:51:05 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1 -vu
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 47 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu"
+	User time (seconds): 22240.43
+	System time (seconds): 3508.83
+	Percent of CPU this job got: 4409%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:43.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1013200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34070593
+	Voluntary context switches: 7103521
+	Involuntary context switches: 8733131
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57147984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1 -vu
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 31 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu"
+	User time (seconds): 21869.12
+	System time (seconds): 2679.87
+	Percent of CPU this job got: 3067%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:20.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 771664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34038642
+	Voluntary context switches: 7208633
+	Involuntary context switches: 2979575
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57147984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu
+["/home/pjotr/opt/bin/samtools", "Version: 1.0-15-gd16d173 (using htslib 1.0-1-g1f1e3f6)"] options: -f H_sapiens_GRCh37.fasta -q 1 -vu
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 mpileup -t 15 -o smb_mpileup.vcf HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam --samtools -f H_sapiens_GRCh37.fasta -q 1 -vu"
+	User time (seconds): 9496.21
+	System time (seconds): 975.07
+	Percent of CPU this job got: 1359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:49.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 458320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16895083
+	Voluntary context switches: 3384316
+	Involuntary context switches: 1198938
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 25293048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

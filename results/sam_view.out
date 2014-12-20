@@ -1,0 +1,369 @@
+viewing with samtools
+Fri 28 Nov 18:56:40 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 6.47
+	System time (seconds): 0.63
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 516
+	Voluntary context switches: 2
+	Involuntary context switches: 719
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1265072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+viewing with samtools
+Fri 28 Nov 18:57:11 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 100.06
+	System time (seconds): 15.41
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:59.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2592
+	Voluntary context switches: 58093
+	Involuntary context switches: 11770
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 19704448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 99.93
+	System time (seconds): 18.42
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:02.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2618
+	Voluntary context switches: 64872
+	Involuntary context switches: 12051
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 19704448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 52.23
+	System time (seconds): 10.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2706
+	Voluntary context switches: 19
+	Involuntary context switches: 6347
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 10324592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+viewing with samtools
+Sat 29 Nov 16:50:27 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/samtools -@ 32 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+[main] unrecognized command '-@'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/samtools -@ 32 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 272
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/samtools -@ 16 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+[main] unrecognized command '-@'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/samtools -@ 16 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 272
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/bin/samtools -@ 8 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+[main] unrecognized command '-@'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/samtools -@ 8 view HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 273
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Sat 29 Nov 16:50:27 CET 2014
+viewing with samtools
+Sat 29 Nov 16:51:33 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/samtools view -@ 32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 99.80
+	System time (seconds): 14.64
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:56.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2582
+	Voluntary context switches: 49155
+	Involuntary context switches: 11612
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 19704448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view -@ 16 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 16 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 99.79
+	System time (seconds): 16.96
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:58.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3734
+	Voluntary context switches: 3788
+	Involuntary context switches: 11845
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 19704448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view -@ 8 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 8 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -o sam_view.sam"
+	User time (seconds): 99.80
+	System time (seconds): 17.42
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2609
+	Voluntary context switches: 11888
+	Involuntary context switches: 11873
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 19704448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat 29 Nov 16:57:29 CET 2014
+viewing with samtools
+Mon  8 Dec 12:51:59 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools view -@ 32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam"
+	User time (seconds): 1325.31
+	System time (seconds): 178.14
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:06.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30122
+	Voluntary context switches: 28752
+	Involuntary context switches: 152280
+	Swaps: 0
+	File system inputs: 224
+	File system outputs: 262186504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view -@ 16 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 16 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam"
+	User time (seconds): 1327.53
+	System time (seconds): 217.42
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:47.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 30262
+	Voluntary context switches: 3387
+	Involuntary context switches: 156182
+	Swaps: 0
+	File system inputs: 376
+	File system outputs: 262186504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools view -@ 8 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam
+	Command being timed: "/home/pjotr/opt/bin/samtools view -@ 8 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -o sam_view.sam"
+	User time (seconds): 1328.70
+	System time (seconds): 214.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:49.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30278
+	Voluntary context switches: 15991
+	Involuntary context switches: 155810
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 262186504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Mon  8 Dec 14:08:42 CET 2014

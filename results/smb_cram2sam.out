@@ -1,0 +1,4316 @@
+cram2sam with sambamba
+Sun 30 Nov 13:17:17 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam.sam"
+	User time (seconds): 1260.41
+	System time (seconds): 176.84
+	Percent of CPU this job got: 316%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:33.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1375312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11655858
+	Voluntary context switches: 845045
+	Involuntary context switches: 460238
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131743920
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba-0.5.0-alhpa_ldc-0.15 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam.sam"
+	User time (seconds): 824.62
+	System time (seconds): 115.36
+	Percent of CPU this job got: 325%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:48.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1083012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7841449
+	Voluntary context switches: 542312
+	Involuntary context switches: 294269
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86946456
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+cram2sam with sambamba
+Sun 30 Nov 16:25:09 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47/.sam
+sambamba-view: Cannot open file `smb_cram2sam_47/.sam' in mode `w+' (No such file or directory)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47/.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.04
+	Percent of CPU this job got: 168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 768
+	Voluntary context switches: 456
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+ls: cannot access smb_cram2sam_47/.sam: No such file or directory
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31/.sam
+sambamba-view: Cannot open file `smb_cram2sam_31/.sam' in mode `w+' (No such file or directory)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31/.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.02
+	Percent of CPU this job got: 168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 704
+	Voluntary context switches: 302
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+ls: cannot access smb_cram2sam_31/.sam: No such file or directory
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15/.sam
+sambamba-view: Cannot open file `smb_cram2sam_15/.sam' in mode `w+' (No such file or directory)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15/.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 639
+	Voluntary context switches: 141
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+ls: cannot access smb_cram2sam_15/.sam: No such file or directory
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7/.sam
+sambamba-view: Cannot open file `smb_cram2sam_7/.sam' in mode `w+' (No such file or directory)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7/.sam"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 142%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2100
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 608
+	Voluntary context switches: 69
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+ls: cannot access smb_cram2sam_7/.sam: No such file or directory
+Sun 30 Nov 16:25:09 CET 2014
+cram2sam with sambamba
+Sun 30 Nov 16:26:13 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47.sam"
+	User time (seconds): 1240.13
+	System time (seconds): 174.16
+	Percent of CPU this job got: 335%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1335032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11483363
+	Voluntary context switches: 846067
+	Involuntary context switches: 454729
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131716232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 16:33 smb_cram2sam_47.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31.sam"
+	User time (seconds): 1259.31
+	System time (seconds): 167.78
+	Percent of CPU this job got: 331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:10.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1011088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12161345
+	Voluntary context switches: 801948
+	Involuntary context switches: 460519
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131716232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 16:40 smb_cram2sam_31.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15.sam"
+	User time (seconds): 1253.06
+	System time (seconds): 156.12
+	Percent of CPU this job got: 334%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:01.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 725012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11461449
+	Voluntary context switches: 738978
+	Involuntary context switches: 412924
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131721592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 16:47 smb_cram2sam_15.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7.sam"
+	User time (seconds): 1167.21
+	System time (seconds): 174.40
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:40.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 612348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9938725
+	Voluntary context switches: 691481
+	Involuntary context switches: 245405
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 132098408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 16:55 smb_cram2sam_7.sam
+Sun 30 Nov 16:55:07 CET 2014
+cram2sam with sambamba
+Sun 30 Nov 18:10:39 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_47.sam"
+	User time (seconds): 1258.97
+	System time (seconds): 186.65
+	Percent of CPU this job got: 311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:44.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1335136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12463565
+	Voluntary context switches: 827849
+	Involuntary context switches: 458727
+	Swaps: 0
+	File system inputs: 1063800
+	File system outputs: 131767224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 18:18 smb_cram2sam_47.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_31.sam"
+	User time (seconds): 1280.50
+	System time (seconds): 172.36
+	Percent of CPU this job got: 331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:18.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1047240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11683500
+	Voluntary context switches: 802089
+	Involuntary context switches: 460891
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131716224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 18:25 smb_cram2sam_31.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_15.sam"
+	User time (seconds): 1279.15
+	System time (seconds): 195.79
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:49.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 757376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12179290
+	Voluntary context switches: 709186
+	Involuntary context switches: 427880
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131869752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 18:33 smb_cram2sam_15.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_7.sam"
+	User time (seconds): 1166.73
+	System time (seconds): 203.08
+	Percent of CPU this job got: 279%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:10.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 608120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10430741
+	Voluntary context switches: 649618
+	Involuntary context switches: 246163
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 132104736
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 18:41 smb_cram2sam_7.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_3.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_3.sam"
+	User time (seconds): 883.42
+	System time (seconds): 194.47
+	Percent of CPU this job got: 217%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:14.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 537532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6438873
+	Voluntary context switches: 547262
+	Involuntary context switches: 132086
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 132360576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 18:49 smb_cram2sam_3.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_0.sam
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -o smb_cram2sam_0.sam"
+	User time (seconds): 713.49
+	System time (seconds): 135.23
+	Percent of CPU this job got: 85%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:27.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 510236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2524208
+	Voluntary context switches: 127014
+	Involuntary context switches: 93192
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 131873608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 67438653207 Nov 30 19:06 smb_cram2sam_0.sam
+Sun 30 Nov 19:06:25 CET 2014
+cram2sam with sambamba
+Tue  9 Dec 13:41:28 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_47.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_47.sam"
+	User time (seconds): 2230.74
+	System time (seconds): 300.63
+	Percent of CPU this job got: 340%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:22.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1391948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 19802016
+	Voluntary context switches: 1321186
+	Involuntary context switches: 796808
+	Swaps: 0
+	File system inputs: 392
+	File system outputs: 225348432
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 13:53 smb_cram2sam_47.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_31.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_31.sam"
+	User time (seconds): 2242.32
+	System time (seconds): 306.69
+	Percent of CPU this job got: 360%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:47.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1064536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21197618
+	Voluntary context switches: 1248317
+	Involuntary context switches: 804219
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 225442992
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 14:05 smb_cram2sam_31.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_15.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_15.sam"
+	User time (seconds): 2220.89
+	System time (seconds): 325.65
+	Percent of CPU this job got: 326%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:59.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 763376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20656868
+	Voluntary context switches: 1138288
+	Involuntary context switches: 735760
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 225395016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 14:18 smb_cram2sam_15.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_7.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_7.sam"
+	User time (seconds): 2071.49
+	System time (seconds): 313.80
+	Percent of CPU this job got: 317%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:30.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 613748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 18080006
+	Voluntary context switches: 1030131
+	Involuntary context switches: 422200
+	Swaps: 0
+	File system inputs: 400
+	File system outputs: 225815120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 14:31 smb_cram2sam_7.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_3.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_3.sam"
+	User time (seconds): 1570.04
+	System time (seconds): 256.20
+	Percent of CPU this job got: 250%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:09.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 536728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11320475
+	Voluntary context switches: 785722
+	Involuntary context switches: 217597
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 225491152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 14:43 smb_cram2sam_3.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_0.sam
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o smb_cram2sam_0.sam"
+	User time (seconds): 1276.50
+	System time (seconds): 176.25
+	Percent of CPU this job got: 88%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 27:12.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 507796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1623467
+	Voluntary context switches: 134930
+	Involuntary context switches: 155185
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 225379840
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec  9 15:10 smb_cram2sam_0.sam
+Tue  9 Dec 15:10:30 CET 2014
+cram2sam with sambamba
+Wed 10 Dec 19:29:12 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam_47.sam
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam_47.sam"
+	User time (seconds): 62.67
+	System time (seconds): 14.77
+	Percent of CPU this job got: 277%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1117556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 838897
+	Voluntary context switches: 88573
+	Involuntary context switches: 23236
+	Swaps: 0
+	File system inputs: 400
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+cram2sam with sambamba
+Wed 10 Dec 19:30:10 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 47 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 2228.62
+	System time (seconds): 263.07
+	Percent of CPU this job got: 358%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:35.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1267812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21192200
+	Voluntary context switches: 1297701
+	Involuntary context switches: 763935
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 19:41 /mnt/ramdisk/smb_cram2sam.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 31 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 2216.21
+	System time (seconds): 256.17
+	Percent of CPU this job got: 367%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:13.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1048520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20429511
+	Voluntary context switches: 1256869
+	Involuntary context switches: 793884
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 19:52 /mnt/ramdisk/smb_cram2sam.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 15 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 2258.16
+	System time (seconds): 256.57
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:40.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 780332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18762694
+	Voluntary context switches: 1141394
+	Involuntary context switches: 704374
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 20:04 /mnt/ramdisk/smb_cram2sam.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 7 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 1942.08
+	System time (seconds): 208.81
+	Percent of CPU this job got: 347%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:19.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 610600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16023847
+	Voluntary context switches: 1037608
+	Involuntary context switches: 363578
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 20:14 /mnt/ramdisk/smb_cram2sam.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+select: Interrupted system call
+select: Interrupted system call
+select: Interrupted system call
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 3 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 1486.62
+	System time (seconds): 193.71
+	Percent of CPU this job got: 254%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:59.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 540160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9737542
+	Voluntary context switches: 661964
+	Involuntary context switches: 191457
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 20:25 /mnt/ramdisk/smb_cram2sam.sam
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+Slice ends beyond reference end.
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 view -t 0 -C HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam.cram -o /mnt/ramdisk/smb_cram2sam.sam"
+	User time (seconds): 1258.10
+	System time (seconds): 132.18
+	Percent of CPU this job got: 89%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:46.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 509984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 509732
+	Voluntary context switches: 154155
+	Involuntary context switches: 147721
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+-rw-r--r-- 1 pjotr users 115378330121 Dec 10 20:51 /mnt/ramdisk/smb_cram2sam.sam
+Wed 10 Dec 20:51:44 CET 2014

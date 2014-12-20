@@ -1,0 +1,353 @@
+mpileuping with samtools
+Sat 29 Nov 21:04:02 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 7434.66
+	System time (seconds): 75.60
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05:20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 37296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 158955
+	Voluntary context switches: 542
+	Involuntary context switches: 761694
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86843800
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 7437.27
+	System time (seconds): 86.94
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05:34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 37348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 128098
+	Voluntary context switches: 320
+	Involuntary context switches: 759150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86843800
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 7427.52
+	System time (seconds): 86.27
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05:24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 37280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 292787
+	Voluntary context switches: 4827
+	Involuntary context switches: 761790
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 86843800
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sun 30 Nov 03:20:21 CET 2014
+mpileuping with samtools
+Thu  4 Dec 12:43:52 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2.65
+	System time (seconds): 0.31
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 224884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51816
+	Voluntary context switches: 1
+	Involuntary context switches: 303
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileuping with samtools
+Thu  4 Dec 12:44:02 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 1648.41
+	System time (seconds): 16.63
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 27:47.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 163047
+	Voluntary context switches: 15
+	Involuntary context switches: 169368
+	Swaps: 0
+	File system inputs: 357232
+	File system outputs: 15840160
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileuping with samtools
+Thu  4 Dec 13:11:51 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[warning] samtools mpileup option `-S` is functional, but deprecated. Please switch to `-t SP` in future.
+[warning] samtools mpileup option `-D` is functional, but deprecated. Please switch to `-t DP` in future.
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -gu -S -D -d 1000 -L 1000 -m 3 -F 0.0002 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2366.44
+	System time (seconds): 23.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 39:52.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 57570
+	Voluntary context switches: 13
+	Involuntary context switches: 241091
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 22808720
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileuping with samtools
+Thu  4 Dec 13:52:04 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 9004.01
+	System time (seconds): 20.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:30:37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 82376
+	Voluntary context switches: 15
+	Involuntary context switches: 913787
+	Swaps: 0
+	File system inputs: 78152
+	File system outputs: 11217104
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup --VCF -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2057.88
+	System time (seconds): 4.91
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:25.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10937
+	Voluntary context switches: 1
+	Involuntary context switches: 208132
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2637976
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+mpileuping with samtools
+Sat  6 Dec 13:27:28 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 7684.09
+	System time (seconds): 54.59
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:09:10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 184268
+	Voluntary context switches: 2592
+	Involuntary context switches: 780806
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57113408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 7635.55
+	System time (seconds): 58.43
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:08:25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 67458
+	Voluntary context switches: 23
+	Involuntary context switches: 776289
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 57113408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/samtools mpileup -vu -o sam_mpileup.vcf -f H_sapiens_GRCh37.fasta -q 1 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2299.20
+	System time (seconds): 18.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 38:41.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14569
+	Voluntary context switches: 5
+	Involuntary context switches: 233854
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 17240600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

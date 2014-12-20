@@ -1,0 +1,271 @@
+merge with sambamba
+Fri 28 Nov 11:23:32 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2558.04
+	System time (seconds): 113.84
+	Percent of CPU this job got: 1540%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:53.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2079088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12171896
+	Voluntary context switches: 945807
+	Involuntary context switches: 627429
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13317776
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 355.62
+	System time (seconds): 19.72
+	Percent of CPU this job got: 1370%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1023256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1780369
+	Voluntary context switches: 131181
+	Involuntary context switches: 92897
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1757832
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+merge with sambamba
+Fri 28 Nov 11:27:14 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 47 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 47 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2599.79
+	System time (seconds): 117.76
+	Percent of CPU this job got: 1494%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:01.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2062192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12297912
+	Voluntary context switches: 940041
+	Involuntary context switches: 654782
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13317792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 31 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 31 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 2225.24
+	System time (seconds): 108.29
+	Percent of CPU this job got: 1415%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:44.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1840768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12278549
+	Voluntary context switches: 936163
+	Involuntary context switches: 438023
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13317784
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 15 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 15 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 1632.27
+	System time (seconds): 75.52
+	Percent of CPU this job got: 1032%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:45.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1636376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12176593
+	Voluntary context switches: 812551
+	Involuntary context switches: 224303
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13317784
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 7 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 merge -t 7 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam_chr1.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam"
+	User time (seconds): 1393.74
+	System time (seconds): 55.57
+	Percent of CPU this job got: 729%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:18.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1533044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12121809
+	Voluntary context switches: 54863
+	Involuntary context switches: 148506
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13317784
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Fri 28 Nov 11:39:05 CET 2014
+merge with sambamba
+Sat  6 Dec 18:24:16 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 47 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 47 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 35475.47
+	System time (seconds): 1676.11
+	Percent of CPU this job got: 1451%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 42:39.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17244592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 165511482
+	Voluntary context switches: 12407562
+	Involuntary context switches: 8867455
+	Swaps: 0
+	File system inputs: 20581080
+	File system outputs: 177013656
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 31 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 31 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 31187.73
+	System time (seconds): 1472.75
+	Percent of CPU this job got: 1333%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 40:48.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17063668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 161044713
+	Voluntary context switches: 12307822
+	Involuntary context switches: 6348405
+	Swaps: 0
+	File system inputs: 6259560
+	File system outputs: 178248368
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 15 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 15 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 21718.46
+	System time (seconds): 1099.45
+	Percent of CPU this job got: 1015%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 37:27.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16885668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 160787154
+	Voluntary context switches: 10699290
+	Involuntary context switches: 2947703
+	Swaps: 0
+	File system inputs: 80
+	File system outputs: 175907696
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 7 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 merge -t 7 /home/pjotr/smb_merge.bam HG00122.mapped.ILLUMINA.bwa.GBR.low_coverage.20121211.bam HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam HG00252.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam"
+	User time (seconds): 18912.99
+	System time (seconds): 746.57
+	Percent of CPU this job got: 715%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 45:46.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16797820
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 161047589
+	Voluntary context switches: 772408
+	Involuntary context switches: 2013530
+	Swaps: 0
+	File system inputs: 40
+	File system outputs: 175906608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat  6 Dec 21:10:59 CET 2014

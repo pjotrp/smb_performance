@@ -1,0 +1,741 @@
+Markdup with sambamba
+Wed 26 Nov 17:20:36 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-rw-r--r-- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+Markdup with sambamba
+Wed 26 Nov 17:20:51 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-rw-r--r-- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m10.939s
+user	0m31.022s
+sys	0m10.121s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m10.041s
+user	0m29.318s
+sys	0m7.654s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m8.337s
+user	0m24.801s
+sys	0m3.556s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+Markdup with sambamba
+Thu 27 Nov 16:30:40 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m11.069s
+user	0m30.976s
+sys	0m10.217s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m10.127s
+user	0m29.016s
+sys	0m7.613s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m8.307s
+user	0m24.317s
+sys	0m3.766s
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+
+real	0m6.303s
+user	0m17.080s
+sys	0m1.105s
+Thu 27 Nov 16:31:16 CET 2014
+Markdup with sambamba
+Thu 27 Nov 16:43:01 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam"
+	User time (seconds): 30.99
+	System time (seconds): 10.98
+	Percent of CPU this job got: 370%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 392528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28635
+	Voluntary context switches: 237736
+	Involuntary context switches: 19457
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam"
+	User time (seconds): 29.08
+	System time (seconds): 7.62
+	Percent of CPU this job got: 365%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 372136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35560
+	Voluntary context switches: 174178
+	Involuntary context switches: 14792
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam"
+	User time (seconds): 24.12
+	System time (seconds): 3.57
+	Percent of CPU this job got: 345%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 357992
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25619
+	Voluntary context switches: 92803
+	Involuntary context switches: 7156
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+sambamba-markdup: BAM file is not coordinate-sorted: read 'ERR251006.100001450' must be before read 'ERR251006.100001152' (at virtual offset 4991/1102)
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam ~/smb_rmdup.bam"
+	User time (seconds): 18.61
+	System time (seconds): 1.20
+	Percent of CPU this job got: 273%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 352064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24875
+	Voluntary context switches: 40265
+	Involuntary context switches: 3471
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Thu 27 Nov 16:43:38 CET 2014
+Markdup with sambamba
+Thu 27 Nov 18:11:26 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 720 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 346 ms
+  collecting virtual offsets of duplicate reads...   done in 569 ms
+  found 539401 duplicates, sorting the list...   done in 15 ms
+collected list of positions in 2 min 49 sec
+sambamba-markdup: Cannot open or create file '~/smb_rmdup.bam'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam"
+	User time (seconds): 459.95
+	System time (seconds): 110.27
+	Percent of CPU this job got: 336%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:49.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1593412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1136228
+	Voluntary context switches: 2213779
+	Involuntary context switches: 234200
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1217280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 679 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 298 ms
+  collecting virtual offsets of duplicate reads...   done in 561 ms
+  found 539401 duplicates, sorting the list...   done in 12 ms
+collected list of positions in 2 min 1 sec
+sambamba-markdup: Cannot open or create file '~/smb_rmdup.bam'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam"
+	User time (seconds): 397.86
+	System time (seconds): 73.04
+	Percent of CPU this job got: 386%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:01.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1535204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1031434
+	Voluntary context switches: 1617561
+	Involuntary context switches: 171428
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1217288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 750 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 273 ms
+  collecting virtual offsets of duplicate reads...   done in 558 ms
+  found 539401 duplicates, sorting the list...   done in 10 ms
+collected list of positions in 1 min 46 sec
+sambamba-markdup: Cannot open or create file '~/smb_rmdup.bam'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam"
+	User time (seconds): 334.79
+	System time (seconds): 37.50
+	Percent of CPU this job got: 348%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:46.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1549604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1013360
+	Voluntary context switches: 900453
+	Involuntary context switches: 86434
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1217280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 942 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 331 ms
+  collecting virtual offsets of duplicate reads...   done in 552 ms
+  found 539401 duplicates, sorting the list...   done in 14 ms
+collected list of positions in 1 min 34 sec
+sambamba-markdup: Cannot open or create file '~/smb_rmdup.bam'
+Command exited with non-zero status 1
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam ~/smb_rmdup.bam"
+	User time (seconds): 256.70
+	System time (seconds): 13.11
+	Percent of CPU this job got: 283%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1457840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 891536
+	Voluntary context switches: 361150
+	Involuntary context switches: 41513
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1217280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Thu 27 Nov 18:19:40 CET 2014
+Markdup with sambamba
+Thu 27 Nov 18:20:05 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 688 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 292 ms
+  collecting virtual offsets of duplicate reads...   done in 560 ms
+  found 539401 duplicates, sorting the list...   done in 12 ms
+collected list of positions in 2 min 48 sec
+removing duplicates...
+total time elapsed: 3 min 31 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam"
+	User time (seconds): 1222.06
+	System time (seconds): 146.85
+	Percent of CPU this job got: 646%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:31.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1747640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5314691
+	Voluntary context switches: 2496157
+	Involuntary context switches: 408657
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 687 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 264 ms
+  collecting virtual offsets of duplicate reads...   done in 565 ms
+  found 539401 duplicates, sorting the list...   done in 14 ms
+collected list of positions in 2 min 3 sec
+removing duplicates...
+total time elapsed: 2 min 44 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam"
+	User time (seconds): 1043.85
+	System time (seconds): 107.33
+	Percent of CPU this job got: 698%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:44.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1533408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5278118
+	Voluntary context switches: 1859078
+	Involuntary context switches: 285064
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 830 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 302 ms
+  collecting virtual offsets of duplicate reads...   done in 573 ms
+  found 539401 duplicates, sorting the list...   done in 15 ms
+collected list of positions in 1 min 45 sec
+removing duplicates...
+total time elapsed: 2 min 21 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam"
+	User time (seconds): 768.09
+	System time (seconds): 58.64
+	Percent of CPU this job got: 584%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:21.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1546264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5265054
+	Voluntary context switches: 1015210
+	Involuntary context switches: 137048
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 1016 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 304 ms
+  collecting virtual offsets of duplicate reads...   done in 547 ms
+  found 539401 duplicates, sorting the list...   done in 13 ms
+collected list of positions in 1 min 35 sec
+removing duplicates...
+total time elapsed: 2 min 33 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.sorted.bam smb_rmdup.bam"
+	User time (seconds): 675.46
+	System time (seconds): 29.32
+	Percent of CPU this job got: 459%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:33.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1458244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4920458
+	Voluntary context switches: 356472
+	Involuntary context switches: 85887
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Thu 27 Nov 18:31:17 CET 2014
+Markdup with sambamba
+Thu 27 Nov 18:35:20 CET 2014
+-r-------- 1 pjotr users 1.3G Nov 26 18:01 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam
+-r-------- 1 pjotr users 2.3G Nov 26 17:53 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+lrwxrwxrwx 1 pjotr users 95 Nov 27 14:32 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam
+ln: failed to create symbolic link 'HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram': File exists
+ls: cannot access /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram: No such file or directory
+lrwxrwxrwx 1 pjotr users 100 Nov 27 14:32 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam_chr1.bam.cram
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 733 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 265 ms
+  collecting virtual offsets of duplicate reads...   done in 554 ms
+  found 539401 duplicates, sorting the list...   done in 14 ms
+collected list of positions in 2 min 46 sec
+removing duplicates...
+total time elapsed: 3 min 28 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 47 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam"
+	User time (seconds): 1209.35
+	System time (seconds): 143.71
+	Percent of CPU this job got: 647%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:28.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1621060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5347112
+	Voluntary context switches: 2474435
+	Involuntary context switches: 395689
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 688 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 280 ms
+  collecting virtual offsets of duplicate reads...   done in 561 ms
+  found 539401 duplicates, sorting the list...   done in 13 ms
+collected list of positions in 2 min 2 sec
+removing duplicates...
+total time elapsed: 2 min 43 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 31 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam"
+	User time (seconds): 1018.94
+	System time (seconds): 107.09
+	Percent of CPU this job got: 686%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:43.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1538700
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5307038
+	Voluntary context switches: 1836797
+	Involuntary context switches: 273314
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894416
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 721 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 257 ms
+  collecting virtual offsets of duplicate reads...   done in 578 ms
+  found 539401 duplicates, sorting the list...   done in 15 ms
+collected list of positions in 1 min 46 sec
+removing duplicates...
+total time elapsed: 2 min 23 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 15 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam"
+	User time (seconds): 784.97
+	System time (seconds): 59.74
+	Percent of CPU this job got: 586%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:23.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1542604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5234454
+	Voluntary context switches: 1022395
+	Involuntary context switches: 141550
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 9043363 end pairs...   done in 1003 ms
+  sorting 4382900 single ends (among them 3592789 unmatched pairs)... done in 391 ms
+  collecting virtual offsets of duplicate reads...   done in 757 ms
+  found 539401 duplicates, sorting the list...   done in 14 ms
+collected list of positions in 1 min 38 sec
+removing duplicates...
+total time elapsed: 2 min 36 sec
+	Command being timed: "/home/pjotr/opt/sambamba-0.5.0-alhpa_ldc-0.15 markdup -t 7 -r --overflow-list-size 500000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam_chr1.bam smb_rmdup.bam"
+	User time (seconds): 686.27
+	System time (seconds): 30.66
+	Percent of CPU this job got: 457%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:36.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1458896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5009054
+	Voluntary context switches: 335498
+	Involuntary context switches: 88530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5894400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Thu 27 Nov 18:46:34 CET 2014
+Markdup with sambamba
+Sun  7 Dec 16:51:03 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 47 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 47 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam"
+	User time (seconds): 12.32
+	System time (seconds): 4.38
+	Percent of CPU this job got: 316%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 411000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 115729
+	Voluntary context switches: 70017
+	Involuntary context switches: 6921
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Markdup with sambamba
+Sun  7 Dec 16:51:42 CET 2014
+-r-------- 1 pjotr users 16G Nov 16  2012 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 15:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam': File exists
+ln: failed to create symbolic link 'HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.sorted.bam.bai': File exists
+-r-------- 1 pjotr users 31G Aug 30 10:54 /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+lrwxrwxrwx 1 pjotr users 86 Oct 31 16:58 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam -> /home/pjotr/data/1000genomes/HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam
+-r-------- 1 pjotr users 4.5G Oct 31 16:00 /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+lrwxrwxrwx 1 pjotr users 91 Oct 31 16:23 HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram -> /home/pjotr/data/1000genomes/HG01375.mapped.ILLUMINA.bwa.CLM.low_coverage.20120522.bam.cram
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 47 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+Command terminated by signal 11
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 47 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam"
+	User time (seconds): 5171.55
+	System time (seconds): 1153.80
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 37:49.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6992640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14783585
+	Voluntary context switches: 19865903
+	Involuntary context switches: 2096012
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 11052992
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 31 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+  sorting 143612592 end pairs...   done in 13466 ms
+  sorting 10869169 single ends (among them 0 unmatched pairs)... done in 391 ms
+  collecting virtual offsets of duplicate reads...   done in 5074 ms
+  found 12779307 duplicates, sorting the list...   done in 281 ms
+collected list of positions in 58 min 10 sec
+removing duplicates...
+total time elapsed: 66 min 54 sec
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 31 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam"
+	User time (seconds): 15895.55
+	System time (seconds): 1684.59
+	Percent of CPU this job got: 437%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06:54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10564192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71259165
+	Voluntary context switches: 22955262
+	Involuntary context switches: 3855446
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 76361048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 15 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam
+finding positions of the duplicate reads in the file...
+Command terminated by signal 2
+	Command being timed: "/home/pjotr/opt/bin/sambamba_ldc-0.14.0 markdup -t 15 -r --overflow-list-size 5000000 HG00110.mapped.ILLUMINA.bwa.GBR.low_coverage.20130415.bam smb_rmdup.bam"
+	User time (seconds): 3841.66
+	System time (seconds): 323.77
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 40:38.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5598708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8048909
+	Voluntary context switches: 4414939
+	Involuntary context switches: 711808
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 7331176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
